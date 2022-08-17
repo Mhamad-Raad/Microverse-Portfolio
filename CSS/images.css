@@ -17,6 +17,13 @@
   top: 125.47px;
 }
 
+.ecllipse3-img {
+  width: 30.1px;
+  height: 30.1px;
+  left: 290px;
+  top: 485.5px;
+}
+
 .block1-img {
   width: 95.58px;
   height: 22.02px;
@@ -46,6 +53,14 @@
   left: 127.18px;
   top: 151.59px;
 }
+
+.block4-img{
+  width: 68.06px;
+  height: 12.18px;
+  left: 190px;
+  top: 580px;
+}
+
 .circle1-img{
   width: 11px;
   height: 10px;
@@ -66,3 +81,11 @@
   left: 298px;
   top: 315px;
 }
+
+.circle4-img{
+  width: 24.14px;
+  height: 12.07px;
+  left: 300px;
+  top: 475px;
+}
+
