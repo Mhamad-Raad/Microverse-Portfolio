@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 /* Navigation bar */
 .navbar {
   height: 72px;
@@ -25,6 +26,7 @@
 .logo {
   margin-left: 24px;
   font-family: 'Poppins';
+  
   font-weight: bolder;
   font-size: 18px;
   color: #6070ff;

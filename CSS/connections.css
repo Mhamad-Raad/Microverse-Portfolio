@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 .contact-me {
   display: flex;
   flex-direction: column;
 }
 
-.contact-me-title > *{
+.contact-me-title > * {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8cff;
+  color: #7f8cff;
   margin-bottom: 0;
 }
 
