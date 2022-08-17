@@ -1,16 +1,10 @@
-body {
-  padding: 0px;
-  margin: 0px;
-}
 /* Navigation bar */
 .navbar {
   position: fixed;
-  
   height: 72px;
   width: 100%;
   margin: 0;
   padding: 0;
-  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: space-between;
