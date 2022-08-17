@@ -10,30 +10,30 @@
 }
 
 /* menu bars for burger menu icon */
-.menu-burger-icon{
+.menu-burger-icon {
   margin-right: 36px;
 }
 
-.bar{
+.bar {
   margin: 5px 0;
   width: 20px;
   height: 2px;
-  background-color: #6070FF;
+  background-color: #6070ff;
   border-radius: 2px;
 }
 
-.logo{
+.logo {
   margin-left: 24px;
   font-family: 'Poppins';
   font-weight: bolder;
   font-size: 18px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
-.logo:hover{
+.logo:hover {
   cursor: pointer;
 }
 
-.menu-burger-icon:hover{
+.menu-burger-icon:hover {
   cursor: pointer;
 }

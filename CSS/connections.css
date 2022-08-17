@@ -1,7 +1,6 @@
-.contact-me{
-  display:flex;
-  flex-direction:column;
-
+.contact-me {
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-me-title > *{
@@ -10,14 +9,13 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7F8cff;
   margin-bottom: 0;
-  
 }
 
 .contact-me-icons {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   width: 60px;
   margin-left: 25px;
 } 

@@ -2,7 +2,6 @@
   position: absolute;
 }
 
-
 .ecllipse1-img {
   width: 105px;
   height: 105px;
@@ -39,76 +38,67 @@
   transform: rotate(-5deg);
 }
 
-.block1-img {
-  width: 95.58px;
-  height: 22.02px;
-  left: 294px;
-  top: 115.79px;
-  transform: rotate(-5deg);
-}
-
-
-.block2-img{
+.block2-img {
   width: 51.99px;
   height: 9.3px;
   top: 104px;
 }
 
-.block3-img{
+.block3-img {
   width: 26.46px;
   height: 4.73px;
   left: 127.18px;
   top: 151.59px;
 }
 
-.block4-img{
+.block4-img {
   width: 68.06px;
   height: 12.18px;
   left: 190px;
   top: 580px;
 }
 
-.circle1-img{
+.circle1-img {
   width: 11px;
   height: 10px;
   left: 127px;
   top: 161px;
 }
 
-.circle2-img{
+.circle2-img {
   width: 15px;
   height: 15px;
   left: 214px;
   top: 110px;
 }
 
-.circle3-img{
+.circle3-img {
   width: 11px;
   height: 11px;
   left: 298px;
   top: 315px;
 }
 
-.circle4-img{
+.circle4-img {
   width: 24.14px;
   height: 12.07px;
   left: 300px;
   top: 475px;
 }
 
-.circle5-img{
+.circle5-img {
   width: 20px;
   height: 20px;
   left: 230px;
   top: 580px;
 }
 
-.linkedin-img{
+.linkedin-img {
   width: 20px;
   height: 16px;
 }
 
-.github-img{
+.github-img {
   width: 18px;
   height: 20px;
 }
@@ -116,4 +106,3 @@
 .icon:hover {
   cursor: pointer;
 }
-
