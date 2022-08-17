@@ -9,7 +9,8 @@
   left: 323px;
   top: 152.24px;
 }
-.block-img {
+
+.block1-img {
   width: 95.58px;
   height: 22.02px;
   left: 294px;
@@ -17,3 +18,18 @@
   transform: rotate(-5deg);
 }
 
+.block1-img {
+  width: 95.58px;
+  height: 22.02px;
+  left: 294px;
+  top: 115.79px;
+  transform: rotate(-5deg);
+}
+
+
+.block2-img{
+  width: 51.99px;
+  height: 9.3px;
+
+  top: 104px;
+}
