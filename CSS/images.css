@@ -103,4 +103,17 @@
   top: 580px;
 }
 
+.linkedin-img{
+  width: 20px;
+  height: 16px;
+}
+
+.github-img{
+  width: 18px;
+  height: 20px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
 
