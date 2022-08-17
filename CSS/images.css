@@ -3,14 +3,14 @@
 }
 
 
-.elllipse1-img {
+.ecllipse1-img {
   width: 105px;
   height: 105px;
   left: 323px;
   top: 152.24px;
 }
 
-.elllipse2-img {
+.ecllipse2-img {
   width: 38.5px;
   height: 19.25px;
   left: 0.04px;
@@ -22,6 +22,13 @@
   height: 30.1px;
   left: 290px;
   top: 485.5px;
+}
+
+.ecllipse4-img {
+  width: 15px;
+  height: 15px;
+  left: 53px;
+  top: 570px;
 }
 
 .block1-img {
@@ -88,4 +95,12 @@
   left: 300px;
   top: 475px;
 }
+
+.circle5-img{
+  width: 20px;
+  height: 20px;
+  left: 230px;
+  top: 580px;
+}
+
 
