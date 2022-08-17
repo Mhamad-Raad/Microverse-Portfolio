@@ -23,13 +23,12 @@
 }
 
 .logo {
+  color: #6070ff;
+  font-size: 1.3rem;
   margin-left: 24px;
   font-family: 'Poppins';
   font-weight: bolder;
-  font-size: 18px;
-  color: #6070ff;
 }
-
 .logo:hover {
   cursor: pointer;
 }

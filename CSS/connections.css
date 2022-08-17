@@ -1,4 +1,5 @@
 .contact-me {
+  
   display: flex;
   flex-direction: column;
 }
@@ -17,5 +18,4 @@
   display: flex;
   justify-content: space-around;
   width: 60px;
-  margin-left: 25px;
 } 
