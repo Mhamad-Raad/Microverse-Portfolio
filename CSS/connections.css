@@ -4,7 +4,7 @@
 }
 
 .contact-me-title > * {
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -17,4 +17,4 @@
   display: flex;
   justify-content: space-around;
   width: 60px;
-} 
+}
