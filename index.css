@@ -1,3 +1,39 @@
-.navbar{
-  
+body {
+  padding: 0px;
+  margin: 0px;
 }
+/* Navigation bar */
+.navbar {
+  position: fixed;
+  
+  height: 72px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* menu bars for burger menu icon */
+.menu-burger-icon{
+  margin-right: 36px;
+}
+
+.bar{
+  margin: 5px 0;
+  width: 20px;
+  height: 2px;
+  background-color: #6070FF;
+  border-radius: 2px;
+}
+
+.logo{
+  margin-left: 24px;
+  font-family: 'Poppins';
+  font-weight: bolder;
+  font-size: 18px;
+  color: #6070FF;
+}
+
