@@ -6,6 +6,14 @@
 .elllipse-img {
   width: 105px;
   height: 105px;
-  top: 152.24px;
   left: 323px;
+  top: 152.24px;
 }
+.block-img {
+  width: 95.58px;
+  height: 22.02px;
+  left: 294px;
+  top: 115.79px;
+  transform: rotate(-5deg);
+}
+
