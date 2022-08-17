@@ -3,11 +3,18 @@
 }
 
 
-.elllipse-img {
+.elllipse1-img {
   width: 105px;
   height: 105px;
   left: 323px;
   top: 152.24px;
+}
+
+.elllipse2-img {
+  width: 38.5px;
+  height: 19.25px;
+  left: 0.04px;
+  top: 125.47px;
 }
 
 .block1-img {
@@ -30,6 +37,5 @@
 .block2-img{
   width: 51.99px;
   height: 9.3px;
-
   top: 104px;
 }
