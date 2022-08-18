@@ -3,6 +3,8 @@
   background-image: url(.././assets/images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-color: #fff;
+  border-bottom-left-radius: 100px;
 }
 
 .make-flex {
