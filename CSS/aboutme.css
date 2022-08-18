@@ -1,19 +1,25 @@
-.about-me {
+.about-me-bg {
+
+  flex-direction: column;
+  background-image: url(.././assets/images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+}
+.make-flex {
   display: flex;
   flex-direction: column;
-  width: 90%;
-  margin: 106px 24px;
-  padding: 0;
+  margin: 0 15px;
 }
-
 .title-container {
-  width: 270px;
+  margin-top: 80px;
+  width: 300px;
   height: auto;
 }
 
 .welcome-txt {
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
-  font-style: normal;
+  color: rgb(20, 21, 76);
+  font-style: bolder;
+  font-weight: 900;
   font-size: 40px;
   line-height: 52px;
   margin: 12px 0;
@@ -21,12 +27,14 @@
 
 .description-bg {
   background-color: #fff;
+  width: 300px;
 }
 
-.decription {
+.description {
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 10px;
+  font-weight: 300;
+  color: #3d4c67;
+  font-size: 16px;
   line-height: 24px;
 }

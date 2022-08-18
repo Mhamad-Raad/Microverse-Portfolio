@@ -14,7 +14,8 @@
 }
 
 .contact-me-icons {
+  margin-top: 10px;
   display: flex;
-  justify-content: space-around;
-  width: 60px;
+  justify-content: space-between;
+  width: 175px;
 }
