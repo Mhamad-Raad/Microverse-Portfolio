@@ -27,7 +27,7 @@
 }
 
 .card-title {
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -39,6 +39,7 @@
 .make-grid {
   display: grid;
 }
+
 .grid-item {
   margin: 0;
   min-width: 0;
@@ -53,15 +54,16 @@
 
 .category-text{
   color: #7a869a;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
   margin: 0;
 }
+
 .canopy {
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -71,16 +73,16 @@
 }
 
 .circle-item {
-  display:block;
-  width:8px;
-  height:8px;
+  display: block;
+  width: 8px;
+  height: 8px;
   background-color: #c1c7d0;
   border-radius: 50px;
   margin: 0 8px;
 }
 
 .card-description {
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -90,7 +92,7 @@
 }
 
 .card-languages {
-  display : grid;
+  display: grid;
   grid-template-columns: auto auto auto;
   align-items: center;
   justify-content: start;
@@ -104,24 +106,23 @@
   background-color: #ebebff;
   border-radius: 8px;
   margin-right: 8px;
-
   justify-content: center;
 }
 
-.card-languages {
-  font-family: 'Poppins';
+.card-language {
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.03em;
-  line-height: 16px; 
+  line-height: 16px;
   color: #6070ff;
 }
 
 .card-button {
   margin-top: 20px;
   width: 40%;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
