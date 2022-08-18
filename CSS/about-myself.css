@@ -65,9 +65,10 @@
 }
 
 .languages-title {
-  margin-top: 50px;
+  margin-top: 20px;
+  display: inline-block;
   width: 175px;
-  margin-right: 50px;
+  margin-right: 120px;
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -90,7 +91,6 @@
 .languages-bg {
   margin-top: 36px;
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
   align-items: center;
 }
@@ -108,7 +108,7 @@
 }
 
 .last-container {
-  margin-bottom: 16px !important;
+  margin-bottom: 30px !important;
 }
 
 .languages-img {
@@ -129,4 +129,9 @@
 
 .unselected {
   margin-top: 20px !important;
+  box-shadow: 0 1px #dfe1e6;
+}
+
+.selected {
+  margin-bottom: 36px;
 }
