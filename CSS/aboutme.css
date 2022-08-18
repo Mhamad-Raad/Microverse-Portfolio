@@ -17,8 +17,8 @@
 }
 
 .welcome-txt {
-  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
-  color: rgb(20, 21, 76);
+  font-family: 'Poppins';
+  color: #172b4d;
   font-style: bolder;
   font-weight: 900;
   font-size: 40px;
@@ -32,7 +32,7 @@
 }
 
 .description {
-  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   color: #3d4c67;
