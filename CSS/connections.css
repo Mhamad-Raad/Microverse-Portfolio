@@ -1,8 +1,3 @@
-.contact-me {
-  display: flex;
-  flex-direction: column;
-}
-
 .contact-me-title > * {
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
