@@ -5,6 +5,7 @@ body {
 
 li {
   list-style-type: none;
+  display:inline-block;
 }
 
 .space {
@@ -13,6 +14,7 @@ li {
 
 ul {
   padding: 0;
+  margin: 0;
 }
 
 .works{
