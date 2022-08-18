@@ -1,0 +1,16 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.space {
+  height: 100px;
+}
+
+ul {
+  padding: 0;
+}

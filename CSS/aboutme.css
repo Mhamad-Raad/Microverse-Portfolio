@@ -1,0 +1,42 @@
+.about-me-bg {
+  flex-direction: column;
+  background-image: url(.././assets/images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.make-flex {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+.title-container {
+  margin-top: 80px;
+  width: 300px;
+  height: auto;
+}
+
+.welcome-txt {
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  color: #172b4d;
+  font-style: bolder;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 12px 0;
+}
+
+.description-bg {
+  background-color: #fff;
+  width: 300px;
+}
+
+.description {
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #3d4c67;
+  font-size: 16px;
+  line-height: 24px;
+}

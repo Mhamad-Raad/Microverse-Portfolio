@@ -1,0 +1,37 @@
+.navbar {
+  height: 72px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-burger-icon {
+  margin-right: 36px;
+}
+
+.bar {
+  margin: 5px 0;
+  width: 20px;
+  height: 2px;
+  background-color: #6070ff;
+  border-radius: 2px;
+}
+
+.logo {
+  color: #6070ff;
+  font-size: 1.3rem;
+  margin-left: 24px;
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.menu-burger-icon:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.img {
+  position: absolute;
+}
+
+.img-icon {
+  font-size: 25px;
+  color: rgb(101, 109, 144);
+}
+
+.icon:hover {
+  cursor: pointer;
+}

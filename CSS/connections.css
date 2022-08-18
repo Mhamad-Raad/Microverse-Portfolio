@@ -1,0 +1,16 @@
+.contact-me-title > * {
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-bottom: 0;
+}
+
+.contact-me-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 175px;
+}
