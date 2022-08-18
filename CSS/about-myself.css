@@ -1,8 +1,134 @@
 .about-myself {
   background-color: #fff;
   width: 100%;
-  height: 200px;
+  height: 1200px;
   padding: 0 24px;
-  border-top-right-radius: 150px;
+  border-top-right-radius: 100px;
   margin-top: 60px;
+}
+
+.aboutmyself-title {
+  margin-left: 0;
+  margin-top: 114px;
+  margin-bottom: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  width: 15rem;
+  color: #172B4D;
+}
+
+.aboutmyself-description {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.aboutmyself-contactme-title {
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.aboutmyself-contactme-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 175px;
+  margin-bottom: 10px;
+}
+
+.aboutmyself-card-button {
+  margin-top: 10px;
+  width: 50%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: transparent;
+  border: 1.75px solid #396df2;
+  border-radius: 8px;
+  padding: 10px 2px;
+}
+
+.languages-title {
+  margin-top: 50px;
+  width: 175px;
+  margin-right: 50px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items:  baseline;
+}
+
+.fa-angle-down {
+ font-size: 25px;
+ color: rgba(172, 183, 195, 1);
+}
+
+.languages-bg {
+  margin-top: 36px;
+  height: calc(fit-content + (200px,20px));
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.language-container {
+  width: 303px;
+  height: 66.72px;
+  background: #F7F7F9;
+  border-radius: 8px;
+  grid-template-columns: auto auto;
+  grid-template-rows: 50px auto;
+  align-content: center;
+  justify-content: start;
+  margin-bottom: 12px;
+}
+
+.last-container {
+  margin-bottom: 16px !important;
+}
+
+.languages-img {
+  width: 48px;
+  height: 48px;
+  margin-left: 12px;
+}
+
+.language-name {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 16px;
+}
+
+.unselected {
+  margin-top: 20px !important;
+ 
 }
