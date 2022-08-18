@@ -15,7 +15,7 @@
   padding: 16px;
   border: 1px solid #dfe1e6;
   width: 327px;
-  height: 552px;
+  height: fit-content;
   border-radius: 16px;
   background-color: #fff;
 }
@@ -46,9 +46,11 @@
 
 .work-categories {
   grid-template-columns: 3.5rem  auto auto auto auto;
-  align-items: center;
+  grid-template-rows: fit-content;
+  align-items: baseline;
   justify-content: start;
 }
+
 .category-text{
   color: #7a869a;
   font-family: 'Poppins';
@@ -56,6 +58,7 @@
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+  margin: 0;
 }
 .canopy {
   font-family: 'Poppins';
@@ -64,6 +67,7 @@
   font-size: 13px;
   line-height: 16px;
   color: #344563;
+  padding: 0;
 }
 
 .circle-item {
@@ -82,6 +86,7 @@
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  margin-bottom: 12px;
 }
 
 .card-languages {
@@ -111,4 +116,20 @@
   letter-spacing: 0.03em;
   line-height: 16px; 
   color: #6070ff;
+}
+
+.card-button {
+  margin-top: 20px;
+  width: 40%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  background-color: transparent;
+  border: 1.75px solid #396df2;
+  border-radius: 8px;
+  padding: 10px 2px;
 }
