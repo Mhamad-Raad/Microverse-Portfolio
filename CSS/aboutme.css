@@ -2,6 +2,7 @@
   flex-direction: column;
   background-image: url(.././assets/images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .make-flex {
