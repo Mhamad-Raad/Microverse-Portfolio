@@ -1,14 +1,15 @@
 .about-me-bg {
-
   flex-direction: column;
   background-image: url(.././assets/images/header-shapes\ mobile.png);
   background-repeat: no-repeat;
 }
+
 .make-flex {
   display: flex;
   flex-direction: column;
   margin: 0 15px;
 }
+
 .title-container {
   margin-top: 80px;
   width: 300px;
