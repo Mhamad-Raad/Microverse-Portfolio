@@ -10,3 +10,7 @@ li {
 .space {
   height: 100px;
 }
+
+ul {
+  padding: 0;
+}
