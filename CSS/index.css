@@ -1,10 +1,12 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #e5e5e5;
 }
 
 li {
   list-style-type: none;
+  display: inline-block;
 }
 
 .space {
@@ -13,4 +15,20 @@ li {
 
 ul {
   padding: 0;
+  margin: 0;
+}
+
+.works {
+  padding: 0 15px;
+}
+
+hr {
+  background: #dfe1e6;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #ffff;
+  background-color: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
