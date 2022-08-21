@@ -101,8 +101,8 @@
   background: #f7f7f9;
   border-radius: 8px;
   grid-template-columns: auto auto;
-  grid-template-rows: 50px;
   justify-content: flex-start;
+  align-items: center;
   margin-bottom: 12px;
 }
 
@@ -117,8 +117,6 @@
 }
 
 .language-name {
-  display: grid;
-  justify-content: center;
   align-items: center;
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
