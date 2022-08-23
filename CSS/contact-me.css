@@ -61,10 +61,10 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #ebebff;
   margin-bottom: 20px;
   color: black;
 }
+
 .textarea {
   min-width: 100%;
   max-width: 100%;
