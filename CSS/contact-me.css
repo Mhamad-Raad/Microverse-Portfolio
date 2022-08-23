@@ -1,0 +1,89 @@
+.contact-me {
+  background-color: #6070ff;
+  width: 100%;
+  height: 800px;
+  margin: 0;
+  border-top-left-radius: 100px;
+  background-image: url(".././assets/images/contactme-img.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me-bg {
+  background-color: #fff;
+  width: 100%;
+}
+
+.contact-me-title-footer {
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.contact-me-description {
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  margin-top: 12px;
+  width: 85%;
+}
+
+.contact-me-form {
+  width: 80%;
+  margin: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: fit-content;
+}
+
+.contact-me-input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #ebebff;
+  padding: 0 10px;
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.textarea {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 200px;
+  max-height: 200px;
+  line-height: 50px;
+}
+
+.contact-me-button {
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  width: 140px;
+  height: 48px;
+}
