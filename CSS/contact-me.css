@@ -87,3 +87,26 @@
   width: 140px;
   height: 48px;
 }
+
+@media screen and (min-width: 768px) {
+  .contact-me-description {
+    width: 569px;
+  }
+
+  .contact-me-input {
+    width: 447px;
+    height: 48px;
+  }
+
+  .textarea {
+    min-width: 447px;
+    min-height: 200px;
+    max-width: 447px;
+    max-height: 200px;
+  }
+  .contact-me-form {
+    align-items: center;
+  }
+}
+  
+

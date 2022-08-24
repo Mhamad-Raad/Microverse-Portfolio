@@ -135,3 +135,9 @@
 .selected {
   margin-bottom: 36px;
 }
+
+ @media screen and (min-width: 768){
+  .desktop-aboutmyself {
+    flex-direction: row;
+  }
+ }
