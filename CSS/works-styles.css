@@ -38,15 +38,15 @@
 
 .make-grid {
   display: grid;
+ 
 }
 
 .grid-item {
   margin: 0;
-  min-width: 0;
 }
 
 .work-categories {
-  grid-template-columns: 3.5rem  auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   grid-template-rows: fit-content;
   align-items: baseline;
   justify-content: start;
@@ -78,7 +78,8 @@
   height: 8px;
   background-color: #c1c7d0;
   border-radius: 50px;
-  margin: 0 8px;
+  margin-right: 10px;
+  margin-left: 15px;
 }
 
 .card-description {
@@ -93,7 +94,7 @@
 
 .card-languages {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   align-items: center;
   justify-content: start;
 }
@@ -133,4 +134,49 @@
   border: 1.75px solid #396df2;
   border-radius: 8px;
   padding: 10px 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .work-card {
+    flex-direction: row !important;
+    width: 1156px;
+  }
+
+  .work-img {
+    width: 544px;
+    height: 448px;
+  }
+
+  .work-card-context{
+    margin-left: 46px;
+  }
+
+  .card-description {
+    margin-top: 32px;
+    width: 90%;
+  }
+
+  .card-languages {
+   margin-top: 28px;
+  }
+
+  .card-button {
+    margin-top: 52px;
+  }
+
+  .work-card:hover {
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+
+  .work-card:hover .card-button {
+    cursor: pointer;
+    color: #ffff;
+    background-color: #6070ff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  }
+
+  .reversed {
+    flex-direction: row-reverse !important;
+  }
 }
