@@ -50,7 +50,7 @@
 
 .aboutmyself-card-button {
   margin-top: 10px;
-  width: 53%;
+  width: 160px;
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -136,8 +136,15 @@
   margin-bottom: 36px;
 }
 
- @media screen and (min-width: 768){
+ @media screen and (min-width: 768px){
   .desktop-aboutmyself {
     flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 142px;
+  }
+
+  .left-section {
+    width: 33%;
+    margin-right: 50px;
   }
  }
