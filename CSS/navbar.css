@@ -9,6 +9,33 @@
   background-color: #fff;
 }
 
+.desktop-menu {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+ 
+  .menu-burger-icon {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-right: 50px;   
+  }
+}
+
+.menu-item {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+}
+
 .menu-burger-icon {
   margin-right: 36px;
 }

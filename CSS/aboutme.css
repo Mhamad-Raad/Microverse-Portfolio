@@ -7,6 +7,13 @@
   border-bottom-left-radius: 100px;
 }
 
+@media only screen and (min-width: 768px) {
+  .about-me-bg {
+  background-image: url(.././assets/images/Desktopheaderbg.png);
+  }
+
+}
+
 .make-flex {
   display: flex;
   flex-direction: column;
