@@ -36,29 +36,24 @@
 
 @media only screen and (min-width: 768px) {
   .about-me-bg {
-  background-image: url(.././assets/images/Desktopheaderbg.png);
-  height: 150vh;
+    background-image: url(.././assets/images/Desktopheaderbg.png);
+    height: 150vh;
   }
 
   .title-container {
     width: 350px;
   }
-  
+
   .description-bg {
     width: 80%;
   }
-  
+
   .desktop-aboutme {
     margin-top: 16%;
     margin-left: 15%;
     margin-bottom: 50px;
-   
   }
 }
-
-
-
-
 
 .description {
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;

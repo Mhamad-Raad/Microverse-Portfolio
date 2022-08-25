@@ -38,7 +38,6 @@
 
 .make-grid {
   display: grid;
- 
 }
 
 .grid-item {
@@ -94,7 +93,8 @@
 
 .card-languages {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
+  row-gap: 5px;
   align-items: center;
   justify-content: start;
 }
@@ -139,15 +139,15 @@
 @media screen and (min-width: 768px) {
   .work-card {
     flex-direction: row !important;
-    width: 1156px;
+    width: 90%;
   }
 
   .work-img {
-    width: 544px;
-    height: 448px;
+    width: 50%;
+    height: 100%;
   }
 
-  .work-card-context{
+  .work-card-context {
     margin-left: 46px;
   }
 
@@ -157,7 +157,7 @@
   }
 
   .card-languages {
-   margin-top: 28px;
+    margin-top: 28px;
   }
 
   .card-button {
@@ -165,7 +165,7 @@
   }
 
   .work-card:hover {
-    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
     cursor: pointer;
   }
 
