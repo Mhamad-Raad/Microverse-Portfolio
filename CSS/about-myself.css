@@ -109,6 +109,8 @@
 
 .adaptive-section {
   width: 100%;
+  max-width: 303px;
+  min-width: 200px;
 }
 
 .last-container {
@@ -141,7 +143,7 @@
   margin-bottom: 36px !important;
 }
 
- @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .desktop-aboutmyself {
     flex-direction: row;
     justify-content: flex-start;
@@ -183,7 +185,6 @@
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     margin-left: 12px;
-    
   }
 
   .languages-adaptive {
@@ -194,7 +195,7 @@
   .first-container {
     margin-left: 0 !important;
   }
-  
+
   .unselected-title {
     margin-left: 20px;
   }
