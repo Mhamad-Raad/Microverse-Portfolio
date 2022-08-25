@@ -7,6 +7,34 @@
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
+  position: fixed;
+  box-shadow: 0 8px 10px -6px rgba(59, 70, 126, 0.3);
+}
+
+.desktop-menu {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .menu-burger-icon {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-right: 50px;
+  }
+}
+
+.menu-item {
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
 }
 
 .menu-burger-icon {
