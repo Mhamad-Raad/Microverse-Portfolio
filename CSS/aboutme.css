@@ -20,8 +20,8 @@
 }
 
 .welcome-txt {
-	animation-name: scale-txt;
-	animation-duration: 1.5s;
+  animation-name: scale-txt;
+  animation-duration: 1.5s;
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   color: #172b4d;
   font-style: bolder;
@@ -33,11 +33,11 @@
 
 @keyframes scale-txt {
   from {
-		transform: scale(0);
+    transform: scale(0);
   }
 
   to {
-		transform: scale(1);
+    transform: scale(1);
   }
 }
 
@@ -68,8 +68,8 @@
 }
 
 .description {
-	animation-name: slide;
-	animation-duration: 1.5s;
+  animation-name: slide;
+  animation-duration: 1.5s;
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 300;

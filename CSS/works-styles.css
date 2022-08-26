@@ -19,7 +19,7 @@
   border-radius: 16px;
   background-color: #fff;
   transition: transform, box-shadow;
-  transition-duration: .7s, .7s;
+  transition-duration: 0.7s, 0.7s;
 }
 
 .work-img {

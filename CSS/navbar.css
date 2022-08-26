@@ -21,8 +21,8 @@
   }
 
   .desktop-menu {
-		animation-name: scale-navbar;
-		animation-duration: 5s;
+    animation-name: scale-navbar;
+    animation-duration: 5s;
     display: flex;
     justify-content: space-between;
     width: 250px;
@@ -62,8 +62,8 @@
 }
 
 .logo {
-	animation-name: scale-logo, rotate-logo;
-	animation-duration: 1.5s, 1s;
+  animation-name: scale-logo, rotate-logo;
+  animation-duration: 1.5s, 1s;
   color: #6070ff;
   font-size: 1.3rem;
   margin-left: 24px;
@@ -73,7 +73,7 @@
 
 @keyframes rotate-logo {
   from {
-		transform: rotate(0);
+    transform: rotate(0);
   }
 
   to {
@@ -83,13 +83,11 @@
 
 @keyframes scale-logo {
   from {
-		font-size: 0;
-		/* transform: rotate(0); */
+    font-size: 0;
   }
 
   to {
-	  font-size: 1.3rem;
-    /* transform: rotate(360deg); */
+    font-size: 1.3rem;
   }
 }
 

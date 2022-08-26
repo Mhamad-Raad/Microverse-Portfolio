@@ -16,8 +16,8 @@
 }
 
 .connections-bg {
-	animation-name: top-slide;
-	animation-duration: 1.7s;
+  animation-name: top-slide;
+  animation-duration: 1.7s;
 }
 
 @keyframes top-slide {

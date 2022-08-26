@@ -29,7 +29,7 @@ hr {
 
 .btn {
   transition: color, background-color;
-  transition-duration: .7s, .7s;
+  transition-duration: 0.7s, 0.7s;
 }
 
 .btn:hover {
