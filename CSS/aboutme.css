@@ -20,6 +20,8 @@
 }
 
 .welcome-txt {
+	animation-name: scale-txt;
+	animation-duration: 1.5s;
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   color: #172b4d;
   font-style: bolder;
@@ -27,6 +29,16 @@
   font-size: 40px;
   line-height: 52px;
   margin: 12px 0;
+}
+
+@keyframes scale-txt {
+  from {
+		transform: scale(0);
+  }
+
+  to {
+		transform: scale(1);
+  }
 }
 
 .description-bg {
@@ -56,10 +68,22 @@
 }
 
 .description {
+	animation-name: slide;
+	animation-duration: 1.5s;
   font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 300;
   color: #3d4c67;
   font-size: 16px;
   line-height: 24px;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }
