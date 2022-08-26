@@ -27,6 +27,11 @@ hr {
   background: #dfe1e6;
 }
 
+.btn {
+  transition: color, background-color;
+  transition-duration: .7s, .7s;
+}
+
 .btn:hover {
   cursor: pointer;
   color: #ffff;

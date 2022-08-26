@@ -18,6 +18,8 @@
   height: fit-content;
   border-radius: 16px;
   background-color: #fff;
+  transition: transform, box-shadow;
+  transition-duration: .7s, .7s;
 }
 
 .work-img {
@@ -167,6 +169,7 @@
   .work-card:hover {
     box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    transform: scale(1.05);
   }
 
   .work-card:hover .card-button {
