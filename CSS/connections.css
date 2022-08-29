@@ -14,3 +14,18 @@
   width: 175px;
   margin-bottom: 130px;
 }
+
+.connections-bg {
+  animation-name: top-slide;
+  animation-duration: 1.7s;
+}
+
+@keyframes top-slide {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
