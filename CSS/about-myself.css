@@ -142,6 +142,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .about-myself {
+    height: 800px;
+  }
+
   .desktop-aboutmyself {
     flex-direction: row;
     justify-content: flex-start;

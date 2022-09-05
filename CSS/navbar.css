@@ -9,6 +9,7 @@
   background-color: #fff;
   position: fixed;
   box-shadow: 0 8px 10px -6px rgba(59, 70, 126, 0.3);
+  z-index: 10000;
 }
 
 .desktop-menu {
