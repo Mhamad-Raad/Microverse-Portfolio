@@ -16,6 +16,18 @@
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  position: fixed;
+  z-index: 10000;
+  backdrop-filter: blur(5px);
+  /* transition: all 5s ease-in-out; */
+}
+
 @media only screen and (min-width: 768px) {
   .menu-burger-icon {
     display: none;
