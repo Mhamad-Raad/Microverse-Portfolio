@@ -25,9 +25,7 @@
   mix-blend-mode: multiply;
   position: fixed;
   z-index: 10000;
-  backdrop-filter: blur(5px);
-
-  /* transition: all 5s ease-in-out; */
+  backdrop-filter: blur(10px);
 }
 
 .mobile-menu-item {
@@ -46,6 +44,10 @@
   right: 0;
   margin-left: 87%;
   margin-top: 5%;
+}
+
+.mobile-menu > *:hover {
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
