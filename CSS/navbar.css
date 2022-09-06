@@ -16,6 +16,40 @@
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #6070ff;
+  mix-blend-mode: multiply;
+  position: fixed;
+  z-index: 10000;
+  backdrop-filter: blur(10px);
+}
+
+.mobile-menu-item {
+  font-weight: 600;
+  font-size: 32px;
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
+  line-height: 44px;
+  color: #fff;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.mobile-menu i {
+  font-size: 30px;
+  color: #fff;
+  right: 0;
+  margin-left: 87%;
+  margin-top: 5%;
+}
+
+.mobile-menu > *:hover {
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 768px) {
   .menu-burger-icon {
     display: none;

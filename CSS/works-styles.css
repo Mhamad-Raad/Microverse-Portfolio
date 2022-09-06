@@ -15,7 +15,6 @@
   padding: 16px;
   border: 1px solid #dfe1e6;
   width: 327px;
-  height: fit-content;
   border-radius: 16px;
   background-color: #fff;
   transition: transform, box-shadow;
@@ -48,7 +47,6 @@
 
 .work-categories {
   grid-template-columns: auto auto auto auto auto;
-  grid-template-rows: fit-content;
   align-items: baseline;
   justify-content: start;
 }
@@ -104,7 +102,6 @@
 .language-bg {
   display: flex;
   width: fit-content;
-  height: fit-content;
   padding: 4px 12px;
   background-color: #ebebff;
   border-radius: 8px;

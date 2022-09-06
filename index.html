@@ -43,7 +43,14 @@
       </nav>
     </header>
 
-    <section >
+    <div class="mobile-menu">
+      <i class="fa-solid fa-xmark"></i>
+      <a class="mobile-menu-item main-menu">Portfolio</a>
+      <a class="mobile-menu-item works-menu">Works</a>
+      <a class="mobile-menu-item about-myself-menu" >About</a>
+      <a class="mobile-menu-item contact-me-menu" >Contact</a>
+    </div>
+    <section id="main">
      
 
       <div class="about-me-bg">
@@ -109,9 +116,9 @@
       </div>
     </section>
 
-      <div class="space"></div>
+      <div class="space" id="works"></div>
 
-      <section class="works make-flex">
+      <section class="works make-flex" >
           <div class="make-flex work-card">
             <img src="./assets/images/Portfolio1.png" class="work-img" alt="Portfolio Image">
             <div class="work-card-context">
@@ -268,7 +275,7 @@
       </section>
 
       
-      <section class="about-myself">
+      <section class="about-myself" id="about-myself">
         <div class="make-flex desktop-aboutmyself">
           <div class="left-section">
             
@@ -325,7 +332,7 @@
             <ul class="languages-bg">
               <li class="adaptive-section">
                 <span class="make-flex row selected">
-                  <h2 class="languages-title">Languages</h2>
+                  <span class="languages-title">Languages</span>
                   <i class="fa-solid fa-angle-down"></i>
                 </span>
 
@@ -353,7 +360,7 @@
           
               <li class="adaptive-section">
                 <span class="row unselected">
-                  <h2 class="languages-title unselected-title">Framworks</h2>
+                  <span class="languages-title unselected-title">Framworks</span>
                   <i class="fa-solid fa-angle-right"></i>
                 </span>
               </li>
@@ -362,7 +369,7 @@
 
               <li class="adaptive-section">
                 <span class="row unselected">
-                  <h2 class="languages-title unselected-title">Skills</h2>
+                  <span class="languages-title unselected-title">Skills</span>
                    <i class="fa-solid fa-angle-right"></i>
                 </span>
                 
@@ -376,7 +383,7 @@
         </div>
       </section>
 
-      <section class="contact-me-bg">
+      <section class="contact-me-bg" id="contact-me">
         <div class="contact-me">
           
           <h2 class="contact-me-title-footer">Contact Me</h2>
@@ -386,13 +393,13 @@
             <form class="contact-me-form" action="https://formspree.io/f/xoqbvvly" method="POST">
               <input type="text" name="name" placeholder="full name" class="contact-me-input" maxlength="30" required>
               <input type="email" name="email" placeholder="email address" class="contact-me-input" required>
-              <textarea name="message" placeholder="write your massage here" class="contact-me-input textarea" maxlength="500"required></textarea>
+              <textarea name="message" placeholder="write your massage here" class="contact-me-input textarea" maxlength="500" required></textarea>
               <button type="submit" class="contact-me-button btn">Get In Touch</button>
             </form>
         </div>
       </section>
     </main>
-
+<script src="./js/navigation.js"></script>
 </body>
 
 </html>

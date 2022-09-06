@@ -47,7 +47,6 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  height: fit-content;
 }
 
 .contact-me-input {
