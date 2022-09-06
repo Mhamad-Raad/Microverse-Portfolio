@@ -31,7 +31,7 @@
 .mobile-menu-item {
   font-weight: 600;
   font-size: 32px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', Arial, Verdana, Tahoma, sans-serif;
   line-height: 44px;
   color: #fff;
   margin-left: 10%;
