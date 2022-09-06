@@ -21,22 +21,26 @@ const aboutMyself = document.querySelector('.about-myself-menu');
 const contactMeMenu = document.querySelector('.contact-me-menu');
 const worksMenu = document.querySelector('.works-menu');
 
-mainMenu.addEventListener('click', function a() {
+function navigateToMenu() {
   closeMenu();
   window.location = '#main';
-});
+}
+mainMenu.addEventListener('click', navigateToMenu);
 
-aboutMyself.addEventListener('click', function b() {
+function navigateToAboutMyself() {
   closeMenu();
   window.location = '#about-myself';
-});
+}
+aboutMyself.addEventListener('click', navigateToAboutMyself);
 
-worksMenu.addEventListener('click', function c() {
+function navigateToWorks() {
   closeMenu();
   window.location = '#works';
-});
+}
+worksMenu.addEventListener('click', navigateToWorks);
 
-contactMeMenu.addEventListener('click', function d() {
+function navigateToContactMe() {
   closeMenu();
   window.location = '#contact-me';
-});
+}
+contactMeMenu.addEventListener('click', navigateToContactMe);
