@@ -91,14 +91,15 @@ function winodowCloseTag(index) {
 }
 
 function ShowCloseModal(index) {
-  if (index < 0)
-    return 0;
-  else{
+  if (index > 0) {
     modal[index].style.display = 'block';
     document.querySelectorAll('.modal-bg')[index].style.display = 'flex';
     const modalClose = document.querySelectorAll('.modal-close')[index];
     modalClose.addEventListener('click', closeTag(index));
     window.addEventListener('click', winodowCloseTag(index));
+  }
+  else {
+    return 0;
   }
 }
 ShowCloseModal(-1);
