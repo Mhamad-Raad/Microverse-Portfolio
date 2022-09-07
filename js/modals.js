@@ -77,24 +77,20 @@ for (let i = 0; i < modals.length; i += 1) {
 const modal = document.querySelectorAll('.modal');
 
 function ShowCloseModal(index) {
-  console.log(index);
   if (index >= 0) {
     document.querySelectorAll('.modal')[index].style.display = 'block';
     document.querySelectorAll('.modal-bg')[index].style.display = 'flex';
     const modalClose = document.querySelectorAll('.modal-close')[index];
-    modalClose.addEventListener('click', function closeTag(e) {
+    modalClose.addEventListener('click', function closeTag() {
       modal[index].style.display = 'none';
       document.querySelectorAll('.modal-bg')[index].style.display = 'none';
-    
     });
-    window.addEventListener('click', windowClsoeTag = (e) => {
+    window.addEventListener('click', (e) => {
       if (e.target === modal[index]) {
         modal[index].style.display = 'none';
         document.querySelectorAll('.modal-bg')[index].style.display = 'none';
       }
     });
   }
-  else {
-    return 0;
-  }
+  else { return 0; }
 }
