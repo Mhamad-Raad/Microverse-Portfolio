@@ -34,6 +34,10 @@
     font-size: 1.5rem;
 }
 
+.modal-close:hover {
+    cursor: pointer;
+}
+
 .modal-img {
   margin-top: 10px;
   width: 100%;
