@@ -1,4 +1,3 @@
-
 const projectsInfo = [
   {
     title: 'Facebook 360',
@@ -13,7 +12,7 @@ const projectsInfo = [
   {
     title: 'Multi-Post Stories',
     desc: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    langs: ['HTML', 'Ruby on rails', 'Javascript','CSS'],
+    langs: ['HTML', 'Ruby on rails', 'Javascript', 'CSS'],
     imgCard: '.././assets/images/Portfolio3.png',
     cannopy: 'FACEBOOK',
     job: 'Full Stack Dev',
@@ -32,18 +31,18 @@ const projectsInfo = [
   },
   {
     title: 'Uber Navigation',
-    desc: "A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.",
+    desc: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
     langs: ['HTML', 'Ruby on rails', 'Javascript', 'CSS'],
     imgCard: '.././assets/images/Portfolio4.png',
     cannopy: 'Uber',
     job: 'Lead Developer',
     live: '#',
     source: '#',
-  }
+  },
 ];
 
 const projects = document.querySelector('.works');
-let index =0;
+let index = 0;
 projectsInfo.forEach((project) => {
   projects.innerHTML += `
           <div class="make-flex work-card">
@@ -69,14 +68,13 @@ projectsInfo.forEach((project) => {
             
               <button onClick="ShowCloseModal(${index})" class="card-button btn">See Project</button>
             </div>
-          </div>
-  `; 
-  index++;
+          </div>`; 
+  index+=1;;
 });
 
 const cards = document.querySelectorAll('.work-card');
-for( let i =0; i < cards.length; i += 1) {
- if(i % 2 === 1) {
+for (let i = 0; i < cards.length; i += 1) {
+  if(i % 2 === 1) {
    cards[i].classList.add('reversed');
- }
+  }
 }

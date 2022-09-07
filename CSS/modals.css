@@ -78,7 +78,7 @@
     min-height: 60% !important;
     height: auto;
   }
-  
+
   .modal-structure {
     flex-direction: row;
     justify-content: space-between;
@@ -96,6 +96,7 @@
     height: 45px;
     width: 120px;
   }
+  
   .modal-line {
     margin-bottom: 10px;
   }

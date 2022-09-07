@@ -74,29 +74,31 @@ for (let i =0; i<modals.length ; i+=1) {
             </div>`;
 }
 
-function closeTag() {
-  modal.style.display = 'none';
+const modal = document.querySelectorAll('.modal');
+
+function closeTag(index) {
+  modal[index].style.display = 'none';
   document.querySelectorAll('.modal-bg')[index].style.display = 'none';
 }
 
 function winodowCloseTag() {
-  if (e.target === modal) {
-    modal.style.display = 'none';
-    document.querySelectorAll('.modal-bg')[index].style.display = 'none';
-  }
+  window.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal[index].style.display = 'none';
+      document.querySelectorAll('.modal-bg')[index].style.display = 'none';
+    }
+  });
 }
 
 function ShowCloseModal(index) {
-
-  const modal = document.querySelectorAll('.modal')[index];
-
-  modal.style.display = 'block';
-  document.querySelectorAll('.modal-bg')[index].style.display = 'flex';
-
-  const modalClose = document.querySelectorAll('.modal-close')[index];
-  
-  modalClose.addEventListener('click', closeTag);
-  window.addEventListener('click', winodowCloseTag);
+  if(index < 0)
+   return;
+   else{
+    modal[index].style.display = 'block';
+    document.querySelectorAll('.modal-bg')[index].style.display = 'flex';
+    const modalClose = document.querySelectorAll('.modal-close')[index];
+    modalClose.addEventListener('click', closeTag(index));
+    window.addEventListener('click', winodowCloseTag);
+   }
 }  
-
-
+ShowCloseModal(-1);
