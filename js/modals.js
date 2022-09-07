@@ -76,27 +76,19 @@ for (let i = 0; i < modals.length; i += 1) {
 
 const modal = document.querySelectorAll('.modal');
 
-function closeTag(index) {
-  modal[index].style.display = 'none';
-  document.querySelectorAll('.modal-bg')[index].style.display = 'none';
-}
-
-
-
 function ShowCloseModal(index) {
   console.log(index);
   if (index >= 0) {
     document.querySelectorAll('.modal')[index].style.display = 'block';
     document.querySelectorAll('.modal-bg')[index].style.display = 'flex';
     const modalClose = document.querySelectorAll('.modal-close')[index];
-    modalClose.addEventListener('click', winodowCloseTag = (e) => {
-      if (e.target === modal) {
-        modal[index].style.display = 'none';
-        document.querySelectorAll('.modal-bg')[index].style.display = 'none';
-      }
+    modalClose.addEventListener('click', function closeTag(e) {
+      modal[index].style.display = 'none';
+      document.querySelectorAll('.modal-bg')[index].style.display = 'none';
+    
     });
-    window.addEventListener('click', function winodowCloseTag(){
-      if (e.target === modal) {
+    window.addEventListener('click', windowClsoeTag = (e) => {
+      if (e.target === modal[index]) {
         modal[index].style.display = 'none';
         document.querySelectorAll('.modal-bg')[index].style.display = 'none';
       }
