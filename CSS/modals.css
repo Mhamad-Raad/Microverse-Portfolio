@@ -1,15 +1,29 @@
 .modal {
+    position: fixed;
+    top: 0;
     display: none;
-    position: relative;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 80%;
-    height: fit-content;
-    isolation: isolate;
-    background: #fff;
-    padding: 0 16px;
-    border-radius: 16px;
+    z-index: 100000;
+    width: 100%;
+    height: 100%;
+    background: #c1c7d0;
+    opacity: 0.5;
+  }
 
+.modal-bg {
+  max-height: calc(100vh - 10px) !important;
+  min-height: 80vh;
+  height: 90%;
+  display: none;
+  position: fixed;
+  top: 3%;
+  overflow-y: auto !important;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  background-color: #fff;
+  padding: 0 16px;
+  border-radius: 16px;
+  z-index: 100001;
 }
 
 .modal-close {
@@ -23,7 +37,7 @@
 .modal-img {
   margin-top: 10px;
   width: 100%;
-  height: 220px;
+  height: 300px;
 }
 
 .modal-languages {
@@ -36,12 +50,21 @@
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 24px;
-  margin-bottom: 5px;
+  margin-bottom: 5px ;
 }
 
 .modal-btn-group {
   display: flex;
   justify-content: space-around;
   width: 100%;
- margin-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.modal-btn {
+  width: 230px;
+  font-size: 15px;
+}
+
+.fa-sharp {
+  margin-left: 7px;
 }

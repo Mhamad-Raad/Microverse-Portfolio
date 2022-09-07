@@ -43,7 +43,7 @@ const projectsInfo = [
 ];
 
 const projects = document.querySelector('.works');
-
+let index =0;
 projectsInfo.forEach((project) => {
   projects.innerHTML += `
           <div class="make-flex work-card">
@@ -67,10 +67,11 @@ projectsInfo.forEach((project) => {
                     ${project.langs.map((lang) => `<li class="language-bg card-language">${lang}</li>`).join('')} 
                 </ul>
             
-              <button onClick="console.log('works')" class="card-button btn">See Project</button>
+              <button onClick="ShowCloseModal(${index})" class="card-button btn">See Project</button>
             </div>
           </div>
   `; 
+  index++;
 });
 
 const cards = document.querySelectorAll('.work-card');
