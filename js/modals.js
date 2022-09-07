@@ -91,8 +91,8 @@ function ShowCloseModal(index) {
         document.querySelectorAll('.modal-bg')[index].style.display = 'none';
       }
     });
-  } else { 
+  } else {
     return 0;
-   }
+  }
 }
 ShowCloseModal(-1);
