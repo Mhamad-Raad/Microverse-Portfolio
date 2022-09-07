@@ -7,11 +7,10 @@ form.addEventListener('submit', (e) => {
     if (String(form.elements.em.value) !== String(form.elements.em.value).toLowerCase()) {
       errorMsg.innerHTML = msg;
       e.preventDefault();
-      return false;
     } else {
       errorMsg.innerHTML = '';
       return true;
     }
-  } 
-  return false;    
+  }
+  return false;
 });
