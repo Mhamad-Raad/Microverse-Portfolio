@@ -81,7 +81,7 @@ function ShowCloseModal(index) {
     document.querySelectorAll('.modal')[index].style.display = 'block';
     document.querySelectorAll('.modal-bg')[index].style.display = 'flex';
     const modalClose = document.querySelectorAll('.modal-close')[index];
-    modalClose.addEventListener('click', function closeTag() {
+    modalClose.addEventListener('click', () => {
       modal[index].style.display = 'none';
       document.querySelectorAll('.modal-bg')[index].style.display = 'none';
     });
@@ -91,6 +91,8 @@ function ShowCloseModal(index) {
         document.querySelectorAll('.modal-bg')[index].style.display = 'none';
       }
     });
-  }
-  else { return 0; }
+  } else { 
+    return 0;
+   }
 }
+ShowCloseModal(-1);
