@@ -38,7 +38,7 @@ const modals = [
 ];
 
 const modalSection = document.querySelector('.works');
-for (let i =0; i<modals.length ; i+=1) { 
+for (let i = 0; i < modals.length; i += 1) {
   modalSection.innerHTML += `
           <div class="modal ">
               
@@ -81,7 +81,7 @@ function closeTag(index) {
   document.querySelectorAll('.modal-bg')[index].style.display = 'none';
 }
 
-function winodowCloseTag() {
+function winodowCloseTag(index) {
   window.addEventListener('click', (e) => {
     if (e.target === modal) {
       modal[index].style.display = 'none';
@@ -91,14 +91,14 @@ function winodowCloseTag() {
 }
 
 function ShowCloseModal(index) {
-  if(index < 0)
-   return;
-   else{
+  if (index < 0)
+    return 0;
+  else{
     modal[index].style.display = 'block';
     document.querySelectorAll('.modal-bg')[index].style.display = 'flex';
     const modalClose = document.querySelectorAll('.modal-close')[index];
     modalClose.addEventListener('click', closeTag(index));
-    window.addEventListener('click', winodowCloseTag);
-   }
-}  
+    window.addEventListener('click', winodowCloseTag(index));
+  }
+}
 ShowCloseModal(-1);

@@ -68,13 +68,13 @@ projectsInfo.forEach((project) => {
             
               <button onClick="ShowCloseModal(${index})" class="card-button btn">See Project</button>
             </div>
-          </div>`; 
-  index+=1;;
+          </div>`;
+  index += 1;
 });
 
 const cards = document.querySelectorAll('.work-card');
 for (let i = 0; i < cards.length; i += 1) {
-  if(i % 2 === 1) {
-   cards[i].classList.add('reversed');
+  if (i % 2 === 1) {
+    cards[i].classList.add('reversed');
   }
 }
