@@ -75,8 +75,8 @@
 
 @media only screen and (min-width: 768px) {
   .modal-img {
-    min-height: 60% !important;
-    height: auto;
+    min-height: 586px !important;
+    width: 100% !important;
   }
 
   .modal-structure {
@@ -87,14 +87,14 @@
 
   .modal-btn-group {
     margin-top: 0;
-    width: 250px;
+    width: 300px;
     justify-content: space-between;
   }
 
   .modal-btn {
     margin-top: 0;
     height: 45px;
-    width: 120px;
+    width: 130px;
   }
 
   .modal-line {
