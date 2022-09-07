@@ -86,7 +86,7 @@ function ShowCloseModal(index) {
       document.querySelectorAll('.modal-bg')[index].style.display = 'none';
     
     });
-    window.addEventListener('click', function winodowCloseTag(){
+    window.addEventListener('click', function winodowCloseTag(e){
       if (e.target === modal) {
         modal[index].style.display = 'none';
         document.querySelectorAll('.modal-bg')[index].style.display = 'none';
