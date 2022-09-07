@@ -11,7 +11,7 @@ const modals = [
   {
     title: 'Multi-Post Stories',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.',
-    langs: ['HTML', 'Ruby on rails', 'Javascript','CSS'],
+    langs: ['HTML', 'Ruby on rails', 'Javascript', 'CSS'],
     imgCard: '.././assets/images/Portfolio3.png',
     cannopy: 'FACEBOOK',
     job: 'Full Stack Dev',
@@ -34,12 +34,11 @@ const modals = [
     cannopy: 'Uber',
     job: 'Lead Developer',
     year: '2015',
-  }
+  },
 ];
 
-const projectBtns = document.querySelectorAll('.card-button');
 const modalSection = document.querySelector('.works');
-for(let i =0; i<modals.length ; i++){ 
+for (let i =0; i<modals.length ; i+=1) { 
   modalSection.innerHTML += `
           <div class="modal ">
               
@@ -72,29 +71,32 @@ for(let i =0; i<modals.length ; i++){
                   </div>
                 </div>
               </div>
-            </div>
-    `;
+            </div>`;
+}
+
+function closeTag() {
+  modal.style.display = 'none';
+  document.querySelectorAll('.modal-bg')[index].style.display = 'none';
+}
+
+function winodowCloseTag() {
+  if (e.target === modal) {
+    modal.style.display = 'none';
+    document.querySelectorAll('.modal-bg')[index].style.display = 'none';
+  }
 }
 
 function ShowCloseModal(index) {
 
   const modal = document.querySelectorAll('.modal')[index];
+
   modal.style.display = 'block';
   document.querySelectorAll('.modal-bg')[index].style.display = 'flex';
-    
+
   const modalClose = document.querySelectorAll('.modal-close')[index];
-
-  modalClose.addEventListener('click', function ()  {
-
-    modal.style.display = 'none';
-    document.querySelectorAll('.modal-bg')[index].style.display = 'none';
-});
-window.addEventListener('click', function (e) {
-      if (e.target === modal) {
-        modal.style.display = 'none';
-        document.querySelectorAll('.modal-bg')[index].style.display = 'none';
-      }
-    });
-  }  
+  
+  modalClose.addEventListener('click', closeTag);
+  window.addEventListener('click', winodowCloseTag);
+}  
 
 
