@@ -12,10 +12,6 @@ form.addEventListener('submit', (e) => {
       errorMsg.innerHTML = '';
       return true;
     }
-  } else {
-    e.preventDefault();
-    alert('Please enter your name');
-    return false;
-  }
+  } 
   return false;    
 });
