@@ -1,13 +1,13 @@
 .modal {
-    position: fixed;
-    top: 0;
-    display: none;
-    z-index: 100000;
-    width: 100%;
-    height: 100%;
-    background: #c1c7d0;
-    opacity: 0.5;
-  }
+  position: fixed;
+  top: 0;
+  display: none;
+  z-index: 100000;
+  width: 100%;
+  height: 100%;
+  background: #c1c7d0;
+  opacity: 0.5;
+}
 
 .modal-bg {
   max-height: calc(100vh - 10px) !important;
@@ -27,15 +27,15 @@
 }
 
 .modal-close {
-    position: absolute;
-    right: 7%;
-    top: 30px;
-    color: rgba(103, 121, 142, 1);
-    font-size: 1.5rem;
+  position: absolute;
+  right: 7%;
+  top: 30px;
+  color: rgba(103, 121, 142, 1);
+  font-size: 1.5rem;
 }
 
 .modal-close:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .modal-img {
@@ -54,7 +54,7 @@
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 24px;
-  margin-bottom: 5px ;
+  margin-bottom: 5px;
 }
 
 .modal-btn-group {
@@ -78,16 +78,19 @@
     min-height: 60% !important;
     height: auto;
   }
+  
   .modal-structure {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
   }
+
   .modal-btn-group {
     margin-top: 0;
     width: 250px;
     justify-content: space-between;
   }
+
   .modal-btn {
     margin-top: 0;
     height: 45px;
@@ -96,11 +99,13 @@
   .modal-line {
     margin-bottom: 10px;
   }
+
   .modal-desc {
     width: 65%;
   }
+
   .modal-close {
     right: 4%;
-    top: 25px
+    top: 25px;
   }
 }
