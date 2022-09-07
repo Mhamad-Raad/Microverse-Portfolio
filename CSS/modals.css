@@ -68,3 +68,35 @@
 .fa-sharp {
   margin-left: 7px;
 }
+
+@media only screen and (min-width: 768px) {
+  .modal-img {
+    min-height: 60% !important;
+    height: auto;
+  }
+  .modal-structure {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .modal-btn-group {
+    margin-top: 0;
+    width: 250px;
+    justify-content: space-between;
+  }
+  .modal-btn {
+    margin-top: 0;
+    height: 45px;
+    width: 120px;
+  }
+  .modal-line {
+    margin-bottom: 10px;
+  }
+  .modal-desc {
+    width: 65%;
+  }
+  .modal-close {
+    right: 4%;
+    top: 25px
+  }
+}
