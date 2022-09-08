@@ -14,3 +14,9 @@ form.addEventListener('submit', (e) => {
   }
   return false;
 });
+
+form.addEventListener('input', () => {
+  let contactData = {name: form.elements.name.value, email: form.elements.em.value, message: form.elements.message.value};
+  var jsonData = JSON.stringify(contactData);
+  localStorage.setItem('data', jsonData);
+});
