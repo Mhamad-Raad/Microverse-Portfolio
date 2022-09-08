@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
       e.preventDefault();
     } else {
       localStorage.removeItem('data');
-      errorMsg.innerHTML = '';      
+      errorMsg.innerHTML = '';
       return true;
     }
   }
@@ -17,14 +17,17 @@ form.addEventListener('submit', (e) => {
 });
 
 form.addEventListener('input', () => {
-  let contactData = {name: form.elements.name.value, email: form.elements.em.value, message: form.elements.message.value};
-  var jsonData = JSON.stringify(contactData);
+  const contactData = { name: form.elements.name.value,
+     email: form.elements.em.value,
+     message: form.elements.message.value };
+
+  const jsonData = JSON.stringify(contactData);
   localStorage.setItem('data', jsonData);
 });
 
-window.onload = () =>{
+window.onload = () => {
   if (localStorage.getItem('data')) {
-    var data = JSON.parse(localStorage.getItem('data'));
+    const data = JSON.parse(localStorage.getItem('data'));
     form.elements.name.value = data.name;
     form.elements.em.value = data.email;
     form.elements.message.value = data.message;
