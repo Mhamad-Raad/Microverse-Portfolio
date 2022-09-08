@@ -8,7 +8,7 @@ function openMenu() {
 
 burgerMenu.addEventListener('click', openMenu);
 
-const closeMenubtn = document.querySelector('.fa-xmark');
+const closeMenubtn = document.querySelector('.menu-close');
 
 function closeMenu() {
   burgerMenu.style.display = 'block';

@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="./CSS/works-styles.css">
   <link rel="stylesheet" href="./CSS/about-myself.css">
   <link rel="stylesheet" href="./CSS/contact-me.css">
+  <link rel="stylesheet" href="./CSS/modals.css">
 
   <!-- font awesome for icons -->
   <script src="https://kit.fontawesome.com/53f3655a6e.js" crossorigin="anonymous"></script>
@@ -26,7 +27,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="body">
  <main>
     <header class="navbar">
       <a class="logo">MyLogo</a>
@@ -44,7 +45,7 @@
     </header>
 
     <div class="mobile-menu">
-      <i class="fa-solid fa-xmark"></i>
+      <i class="fa-solid fa-xmark menu-close"></i>
       <a class="mobile-menu-item main-menu">Portfolio</a>
       <a class="mobile-menu-item works-menu">Works</a>
       <a class="mobile-menu-item about-myself-menu" >About</a>
@@ -109,7 +110,6 @@
                 </li>
   
               </ul>
-            
           </section>
         </div>
         </div>
@@ -118,160 +118,8 @@
 
       <div class="space" id="works"></div>
 
-      <section class="works make-flex" >
-          <div class="make-flex work-card">
-            <img src="./assets/images/Portfolio1.png" class="work-img" alt="Portfolio Image">
-            <div class="work-card-context">
-              <h2 class="card-title">Facebook 360</h2>
-              <div class="make-grid work-categories">
-                
-                  
-                <p class="canopy grid-item">FACEBOOK</p>
-             
-                <div class="circle-item grid-item"></div>
-                <p class="category-text grid-item">Full Stack Dev</p>
-                <div class="circle-item grid-item"></div>
-                <p class="category-text grid-item">2015</p>
-              </div>
-              <p class="card-description">Exploring the future of media in Facebook's first Virtual Reality app;
-                 a place to discover and enjoy 360 photos and videos on Gear VR.</p>
-          
-                <ul class="card-languages">
-                
-                    <li class=" language-bg card-language">
-                      HTML
-                    </li>
-                  
-                  
-                    <li class="language-bg card-language">
-                      CSS
-                    </li>
-                  
-                  
-                    <li class="language-bg card-language">
-                      JavaScript
-                    </li>
-                  
-                </ul>
-            
-              <button onClick="console.log('works')" class="card-button btn">See Project</button>
-            </div>
-          </div>
-
-          <div class="make-flex work-card reversed">
-            <img src="./assets/images/Portfolio3.png" class="work-img" alt="Multi post stores">
-            <div class="work-card-context">
-            <h2 class="card-title">Multi-Post Stories</h2>
-            <div class="make-grid work-categories">
-              
-              <p class="canopy grid-item">FACEBOOK</p>
-              <div class="circle-item"></div>
-              <p class="category-text">Full stack Dev</p>
-              <div class="circle-item"></div>
-              <p class="category-text">2015</p>
-            </div>
-            <p class="card-description">Experimental content creation feature that allows users
-               to add to an existing story over the course of a day without spamming their friends.</p>
-           
-              <ul class="card-languages">
-               
-                  <li class="language-bg card-language">
-                    HTML
-                  </li>
-                  
-                  <li class="language-bg card-language">
-                    Ruby on rails
-                  </li>          
-                
-                  <li class="language-bg card-language">
-                    JavaScript
-                  </li>
-
-                  <li class="language-bg card-language">
-                    CSS
-                  </li>
-              
-              </ul>
-           
-            <button onclick="" class="card-button btn">See Project</button>
-          </div>
-          </div>
-
-          <div class="make-flex work-card">
-            <img src="./assets/images/Portfolio2.png" class="work-img" alt="Tonic">
-            <div class="work-card-context">
-            <h2 class="card-title">Tonic</h2>
-            <div class="make-grid work-categories">
-              
-              <p class="canopy grid-item">CANOPY</p>
-              <div class="circle-item"></div>
-              <p class="category-text">Back End Dev</p>
-              <div class="circle-item"></div>
-              <p class="category-text">2015</p>
-            </div>
-            <p class="card-description">Experimental content creation feature that allows users
-               to add to an existing story over the course of a day without spamming their friends.</p>
+      <section class="works make-flex">
         
-              <ul class="card-languages">
-                
-                  <li class="language-bg card-language">
-                    HTML
-                  </li>
-        
-                
-                  <li class="language-bg card-language">
-                    CSS
-                  </li>
-               
-                  <li class="language-bg card-language">
-                    JavaScript
-                  </li>
-             
-              </ul>
-           
-            <button onclick="" class="card-button btn">See Project</button>
-            </div>
-          </div>
-
-          <div class="make-flex work-card reversed">
-            <img src="./assets/images/Portfolio4.png" class="work-img" alt="Multi Post Stories">
-            <div class="work-card-context">
-            <h2 class="card-title">Uber Navigation</h2>
-            <div class="make-grid work-categories">
-              
-              <p class="canopy grid-item">Uber</p>
-              <div class="circle-item"></div>
-              <p class="category-text">Lead Developer</p>
-              <div class="circle-item"></div>
-              <p class="category-text">2015</p>
-            </div>
-            <p class="card-description">A smart assistant to make driving more safe,
-               efficient, and fun by unlocking your most expensive computer: your car.</p>
-          
-              <ul class="card-languages">
-               
-                  <li class="language-bg card-language">
-                    HTML
-                  </li>
-
-                  <li class="language-bg card-language">
-                    Ruby on rails
-                  </li>
-                          
-                  <li class="language-bg card-language">
-                    JavaScript
-                  </li>
-
-                  <li class="language-bg card-language">
-                    CSS
-                  </li>
-               
-              </ul>
-           
-            <button onclick="" class="card-button btn">See Project</button>
-            </div>
-          </div>
-          
       </section>
 
       
@@ -372,7 +220,6 @@
                   <span class="languages-title unselected-title">Skills</span>
                    <i class="fa-solid fa-angle-right"></i>
                 </span>
-                
               </li>
 
           
@@ -390,16 +237,20 @@
             <p class="contact-me-description">
               If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it 
             </p>
-            <form class="contact-me-form" action="https://formspree.io/f/xoqbvvly" method="POST">
+            <form class="contact-me-form" action="https://formspree.io/f/xoqbvvly" method="POST" id="form">
               <input type="text" name="name" placeholder="full name" class="contact-me-input" maxlength="30" required>
-              <input type="email" name="email" placeholder="email address" class="contact-me-input" required>
+              <input type="email" name="emial" id="em" placeholder="email address" class="contact-me-input" required>
               <textarea name="message" placeholder="write your massage here" class="contact-me-input textarea" maxlength="500" required></textarea>
               <button type="submit" class="contact-me-button btn">Get In Touch</button>
+              <small class="error-msg"></small>
             </form>
         </div>
       </section>
     </main>
 <script src="./js/navigation.js"></script>
+<script src="./js/works.js"></script>
+<script src="./js/modals.js"></script>
+<script src="./js/validate.js"></script>
 </body>
 
 </html>
