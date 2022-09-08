@@ -20,3 +20,12 @@ form.addEventListener('input', () => {
   var jsonData = JSON.stringify(contactData);
   localStorage.setItem('data', jsonData);
 });
+
+window.onload = () =>{
+  if(localStorage.getItem('data')){
+    var data = JSON.parse(localStorage.getItem('data'));
+    form.elements.name.value = data.name;
+    form.elements.em.value = data.email;
+    form.elements.message.value = data.message;
+  }
+}
