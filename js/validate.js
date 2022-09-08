@@ -17,9 +17,11 @@ form.addEventListener('submit', (e) => {
 });
 
 form.addEventListener('input', () => {
-  const contactData = { name: form.elements.name.value,
-     email: form.elements.em.value,
-     message: form.elements.message.value };
+  const contactData = { 
+    name: form.elements.name.value,
+    email: form.elements.em.value,
+    message: form.elements.message.value
+  };
 
   const jsonData = JSON.stringify(contactData);
   localStorage.setItem('data', jsonData);
