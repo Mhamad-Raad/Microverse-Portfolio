@@ -8,7 +8,8 @@ form.addEventListener('submit', (e) => {
       errorMsg.innerHTML = msg;
       e.preventDefault();
     } else {
-      errorMsg.innerHTML = '';
+      localStorage.removeItem('data');
+      errorMsg.innerHTML = '';      
       return true;
     }
   }
@@ -22,10 +23,14 @@ form.addEventListener('input', () => {
 });
 
 window.onload = () =>{
-  if(localStorage.getItem('data')){
+  if (localStorage.getItem('data')) {
     var data = JSON.parse(localStorage.getItem('data'));
     form.elements.name.value = data.name;
     form.elements.em.value = data.email;
     form.elements.message.value = data.message;
+  } else {
+    form.elements.name.value = '';
+    form.elements.em.value = '';
+    form.elements.message.value = '';
   }
 }
