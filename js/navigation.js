@@ -46,7 +46,7 @@ function navigateToContactMe() {
 contactMeMenu.addEventListener('click', navigateToContactMe);
 
 const navItems = document.querySelectorAll('.menu-item');
-window.addEventListener('scroll', (e) => {
+window.addEventListener('scroll', () => {
   const windowScrolPosition = window.scrollY;
   const contactMePosition = document.querySelector('#contact-me').offsetTop;
   const WorksPosition = document.querySelector('.works').offsetTop;
@@ -58,17 +58,19 @@ window.addEventListener('scroll', (e) => {
     navItems[1].classList.remove('active');
     navItems[2].classList.remove('active');
     navItems[3].classList.remove('active');
-  } else if (windowScrolPosition >= (WorksPosition - 200) && windowScrolPosition < (aboutMyselfPosition - 300)) {
+  } else if (windowScrolPosition >= (WorksPosition - 200) &&
+   windowScrolPosition < (aboutMyselfPosition - 300)) {
     navItems[0].classList.remove('active');
     navItems[1].classList.add('active');
     navItems[2].classList.remove('active');
     navItems[3].classList.remove('active');
-  } else if (windowScrolPosition  >= (aboutMyselfPosition - 300) && (windowScrolPosition + 750) < contactMePosition) {
+  } else if (windowScrolPosition >= (aboutMyselfPosition - 300) &&
+   (windowScrolPosition + 750) < contactMePosition) {
     navItems[0].classList.remove('active');
     navItems[1].classList.remove('active');
     navItems[2].classList.add('active');
     navItems[3].classList.remove('active');
-  } else if (windowScrolPosition  >= (contactMePosition - 750)) {
+  } else if (windowScrolPosition >= (contactMePosition - 750)) {
     navItems[0].classList.remove('active');
     navItems[1].classList.remove('active');
     navItems[2].classList.remove('active');
