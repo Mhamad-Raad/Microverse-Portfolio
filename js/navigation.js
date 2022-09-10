@@ -58,14 +58,14 @@ window.addEventListener('scroll', () => {
     navItems[1].classList.remove('active');
     navItems[2].classList.remove('active');
     navItems[3].classList.remove('active');
-  } else if (windowScrolPosition >= (WorksPosition - 200) &&
-   windowScrolPosition < (aboutMyselfPosition - 300)) {
+  } else if (windowScrolPosition >= (WorksPosition - 200) 
+  && windowScrolPosition < (aboutMyselfPosition - 300)) {
     navItems[0].classList.remove('active');
     navItems[1].classList.add('active');
     navItems[2].classList.remove('active');
     navItems[3].classList.remove('active');
-  } else if (windowScrolPosition >= (aboutMyselfPosition - 300) &&
-   (windowScrolPosition + 750) < contactMePosition) {
+  } else if (windowScrolPosition >= (aboutMyselfPosition - 300) 
+  && (windowScrolPosition + 750) < contactMePosition) {
     navItems[0].classList.remove('active');
     navItems[1].classList.remove('active');
     navItems[2].classList.add('active');
