@@ -44,3 +44,44 @@ function navigateToContactMe() {
   window.location = '#contact-me';
 }
 contactMeMenu.addEventListener('click', navigateToContactMe);
+
+const navItems = document.querySelectorAll('.menu-item');
+window.addEventListener('scroll', (e) => {
+  const windowScrolPosition = window.scrollY;
+  const contactMePosition = document.querySelector('#contact-me').offsetTop;
+  const WorksPosition = document.querySelector('.works').offsetTop;
+  const aboutMyselfPosition = document.querySelector('.about-myself').offsetTop;
+  const mainPosition = document.querySelector('#main').offsetTop;
+
+  if (windowScrolPosition >= mainPosition && windowScrolPosition < (WorksPosition - 200)) {
+    navItems[0].classList.add('active');
+    navItems[1].classList.remove('active');
+    navItems[2].classList.remove('active');
+    navItems[3].classList.remove('active');
+  } else if (windowScrolPosition >= (WorksPosition - 200) && windowScrolPosition < (aboutMyselfPosition - 300)) {
+    navItems[0].classList.remove('active');
+    navItems[1].classList.add('active');
+    navItems[2].classList.remove('active');
+    navItems[3].classList.remove('active');
+  } else if (windowScrolPosition  >= (aboutMyselfPosition - 300) && (windowScrolPosition + 750) < contactMePosition) {
+    navItems[0].classList.remove('active');
+    navItems[1].classList.remove('active');
+    navItems[2].classList.add('active');
+    navItems[3].classList.remove('active');
+  } else if (windowScrolPosition  >= (contactMePosition - 750)) {
+    navItems[0].classList.remove('active');
+    navItems[1].classList.remove('active');
+    navItems[2].classList.remove('active');
+    navItems[3].classList.add('active');
+  } else {
+    navItems[0].classList.add('active');
+    navItems[1].classList.remove('active');
+    navItems[2].classList.remove('active');
+    navItems[3].classList.remove('active');
+  }
+});
+
+navItems[0].addEventListener('click', navigateToMenu);
+navItems[1].addEventListener('click', navigateToWorks);
+navItems[2].addEventListener('click', navigateToAboutMyself);
+navItems[3].addEventListener('click', navigateToContactMe);

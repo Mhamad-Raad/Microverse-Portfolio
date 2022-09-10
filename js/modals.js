@@ -91,6 +91,13 @@ function ShowCloseModal(index) {
         document.querySelectorAll('.modal-bg')[index].style.display = 'none';
       }
     });
+
+    window.addEventListener('touched', (e) => {
+      if (e.target === modal[index]) {
+        modal[index].style.display = 'none';
+        document.querySelectorAll('.modal-bg')[index].style.display = 'none';
+      }
+    });
   } else {
     return 0;
   }

@@ -52,7 +52,7 @@
 
 @media only screen and (min-width: 768px) {
   .menu-burger-icon {
-    display: none;
+    display: none !important;
   }
 
   .desktop-menu {
@@ -60,8 +60,22 @@
     animation-duration: 5s;
     display: flex;
     justify-content: space-between;
-    width: 250px;
+    align-items: center;
+    width: 350px;
     margin-right: 50px;
+    height: 100%;
+  }
+  .menu-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .menu-item:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #99a1ea;
+  }
+  .active {
+    border-bottom: 3px solid #6070ff;
   }
 }
 

@@ -1,8 +1,6 @@
 .works {
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  height: 390vh;
   padding: 0;
   margin: 0;
   background-color: #e5e5e5;
@@ -19,6 +17,7 @@
   background-color: #fff;
   transition: transform, box-shadow;
   transition-duration: 0.7s, 0.7s;
+  margin-top: 150px;
 }
 
 .work-img {
