@@ -1,4 +1,14 @@
 const modals = [
+   {
+    title: 'Hitex',
+    desc: 'Hitex was a mini project in which I wanted to make a design that was shared by a UX/UI designer, and mention a little bit of information about Hitex.',
+    langs: ['HTML', 'CSS', 'JavaScript'],
+    cannopy: 'Hitex',
+    imgCard: './assets/images/hitex.png"',
+    job: 'Front-end Dev',
+    live: 'https://mhamad-raad.github.io/Hitex/',
+    source: 'https://github.com/Mhamad-Raad/Hitex',
+  },
   {
     title: 'Facebook 360',
     desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea.",
@@ -66,8 +76,12 @@ for (let i = 0; i < modals.length; i += 1) {
                   <div class="modal-line"></div>
 
                   <div class="modal-btn-group">
-                    <button onClick="" class="card-button btn modal-btn">See Live <i class="fa-sharp fa-solid fa-earth-americas"></i></button>
-                    <button onClick="" class="card-button btn modal-btn">See Source <i class="fa-brands fa-github"></i></button>
+                    <a href="${modals[i].live}"
+                      <button onClick="" class="card-button btn modal-btn">See Live <i class="fa-sharp fa-solid fa-earth-americas"></i></button>
+                    </a>
+                    <a href="${modals[i].source}"
+                      <button onClick="" class="card-button btn modal-btn">See Source <i class="fa-brands fa-github"></i></button>
+                    </a>
                   </div>
                 </div>
               </div>

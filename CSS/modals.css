@@ -26,6 +26,11 @@
   z-index: 100001;
 }
 
+.modal-btn-group > a {
+  text-align: center;
+  text-decoration: none;
+}
+
 .modal-close {
   position: absolute;
   right: 7%;

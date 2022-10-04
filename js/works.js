@@ -1,5 +1,15 @@
 const projectsInfo = [
   {
+    title: 'Hitex',
+    desc: 'Hitex was a mini project in which I wanted to make a design that was shared by a UX/UI designer, and mention a little bit of information about Hitex.',
+    langs: ['HTML', 'CSS', 'JavaScript'],
+    cannopy: 'Hitex',
+    imgCard: './assets/images/hitex.png"',
+    job: 'Front-end Dev',
+    live: 'https://mhamad-raad.github.io/Hitex/',
+    source: 'https://github.com/Mhamad-Raad/Hitex',
+  },
+  {
     title: 'Facebook 360',
     desc: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
     langs: ['Html', 'Css', 'Javascript'],
